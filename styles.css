@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 body {
     /* background-color: black; */
-    background-image:cross-fade(black);
+    background-image: cross-fade(black);
     /* background-color: #fdf8f2; */
 }
 
@@ -28,7 +28,7 @@ ul {
 
 .headline {
     background-color: #807243;
-    font-family: trade-gothic-next,sans-serif;
+    font-family: trade-gothic-next, sans-serif;
     font-weight: 300;
     line-height: 14px;
     letter-spacing: .5px;
@@ -40,7 +40,10 @@ ul {
     /* height: 50px; */
     vertical-align: middle;
     position: relative;
-    top: 0; right: 0; bottom: 0; left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 /****************** Headline division styles END ***************/
@@ -117,14 +120,15 @@ li {
     position: relative;
     margin: auto;
 }
-  
+
 /* Hide the images by default */
 .mySlides {
     display: none;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -146,7 +150,8 @@ li {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
     /* background-color: rgba(0,0,0,0.8);   */
     background-color: #807243;
 }
@@ -183,7 +188,8 @@ li {
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
     background-color: #717171;
 }
 
@@ -196,13 +202,23 @@ li {
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 
@@ -242,7 +258,7 @@ li {
 .items img {
     height: 200px;
     width: 200px;
-    
+
 }
 
 #new button {
@@ -260,6 +276,7 @@ li {
     color: white;
     text-decoration: none;
 }
+
 /******************* NEW END  ********************/
 
 
@@ -271,10 +288,11 @@ li {
     text-align: center;
 }
 
-#mission .mission-heading{
+#mission .mission-heading {
     font-size: 50px;
     padding-bottom: 20px;
 }
+
 .mission-container {
     /* margin: 50px; */
     align-items: center;
@@ -286,7 +304,10 @@ li {
     vertical-align: middle;
     text-align: center;
 }
-.mission1, .mission2, .mission3 {
+
+.mission1,
+.mission2,
+.mission3 {
     display: flex;
     justify-content: flex-start;
     flex-grow: 1;
@@ -297,7 +318,8 @@ li {
     height: 400px;
 }
 
-.m1, .m2 {
+.m1,
+.m2 {
     flex-grow: 1;
     justify-content: flex-start;
     min-width: 100px;
@@ -307,4 +329,24 @@ li {
     padding: 20px 50px 20px;
     margin: 0 50px 0;
 }
+
 /******************* OUR MISSION END  ********************/
+
+
+/***************************** FOOTER START **********************/
+#footer {
+    text-align: center;
+    align-items: center;
+    /* background-color: white; */
+    /* padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    margin-top: 50px;
+    background-color: #807243 !important;
+}
+#footer .footer-style{
+    background-color: #807243 !important;
+}
+
+
+/**************************** FOOTER END  ***************************/
